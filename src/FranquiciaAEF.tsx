@@ -197,29 +197,11 @@ const Word: React.FC<{ delay: number; children: React.ReactNode }> = ({ delay, c
 };
 
 const SceneTitle: React.FC = () => {
-  const chip = useReveal(10);
   const sub = useReveal(48);
   const line1 = ["La", "franquicia", "en", "España"];
   return (
     <SceneOut at={86}>
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", textAlign: "center" }}>
-        <div
-          style={{
-            ...chip,
-            fontFamily: BODY,
-            fontWeight: 500,
-            fontSize: 24,
-            color: C.text,
-            padding: "12px 26px",
-            borderRadius: 999,
-            border: `1px solid ${C.border}`,
-            background: C.card,
-            marginBottom: 40,
-            letterSpacing: 0.3,
-          }}
-        >
-          <span style={{ color: C.pink }}>●</span>&nbsp;&nbsp;Informe AEF · La Franquicia en España 2026
-        </div>
         <div style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: 132, lineHeight: 1.02, letterSpacing: -4 }}>
           <div style={{ color: C.text }}>
             {line1.map((w, i) => (
@@ -507,26 +489,13 @@ const SceneClose: React.FC = () => {
   );
 };
 
-// ---------- Pie: fuente + progreso ----------
+// ---------- Pie: barra de progreso ----------
 const Footer: React.FC = () => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const o = interpolate(frame, [10, 30], [0, 1], clamp);
   return (
     <>
-      <div
-        style={{
-          position: "absolute",
-          left: 80,
-          bottom: 52,
-          opacity: o,
-          fontFamily: BODY,
-          fontSize: 20,
-          color: "rgba(244,239,234,0.4)",
-        }}
-      >
-        Fuente: Asociación Española de la Franquicia (AEF) · «La Franquicia en España 2026»
-      </div>
       <div
         style={{
           position: "absolute",
