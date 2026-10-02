@@ -1,0 +1,23 @@
+{
+  "name": "lea-funes-animaciones",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Animaciones para el LinkedIn de Leandro Funes (Remotion)",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render FranquiciaAEF out/franquicia-aef-2026.mp4",
+    "still": "remotion still FranquiciaAEF out/preview.png --frame=200"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/inter-tight": "^5.3.0",
+    "@remotion/cli": "^4.0.532",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.532"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
