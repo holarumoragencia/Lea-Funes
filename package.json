@@ -5,8 +5,8 @@
   "description": "Animaciones para el LinkedIn de Leandro Funes (Remotion)",
   "scripts": {
     "studio": "remotion studio",
-    "render": "remotion render FranquiciaAEF out/franquicia-aef-2026.mp4",
-    "still": "remotion still FranquiciaAEF out/preview.png --frame=200"
+    "render": "remotion render FranquiciaReactivacion out/franquicia-reactivacion-2027.mp4",
+    "render:aef": "remotion render FranquiciaAEF out/franquicia-aef-2026.mp4"
   },
   "dependencies": {
     "@fontsource/inter": "^5.3.0",
