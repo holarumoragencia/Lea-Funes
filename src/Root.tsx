@@ -14,8 +14,8 @@ export const RemotionRoot: React.FC = () => (
       component={FranquiciaMundo}
       durationInFrames={MUNDO_DURATION}
       fps={30}
-      width={1080}
-      height={1920}
+      width={1920}
+      height={1080}
     />
   </>
 );

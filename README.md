@@ -1,10 +1,10 @@
 # Animaciones · Leandro Funes (LinkedIn)
 
-Videos animados para los posteos de LinkedIn de Leandro Funes, hechos con [Remotion](https://www.remotion.dev/) (videos programados en React). Los horizontales son de 1920×1080 y 15 s; el vertical es de 1080×1920 y 23,5 s, con música. Todos van a 30 fps.
+Videos animados para los posteos de LinkedIn de Leandro Funes, hechos con [Remotion](https://www.remotion.dev/) (videos programados en React). Son de 1920×1080 a 30 fps. Los dos primeros duran 15 s; el de la franquicia en el mundo dura 24,5 s y lleva música y material real de ATR.
 
 ## Videos
 
-### `out/franquicia-mundo-2025.mp4` (vertical, fondo claro, con música)
+### `out/franquicia-mundo-2025.mp4` (fondo claro, con música y clips de ATR)
 Reacción al informe «La Franquicia Española en el Mundo 2025» (AEF, con ICEX y Cajamar). Plan de contenidos: id i04. Las escenas cambian en cada compás de la música (~117,5 BPM).
 
 | Tiempo | Escena |
@@ -13,10 +13,12 @@ Reacción al informe «La Franquicia Española en el Mundo 2025» (AEF, con ICEX
 | 4–8 s | 27,4 % opera en el exterior; +0,96 % en un año (311 → 314) |
 | 8–12 s | Mapa: 139 países, 18.929 locales; Portugal 176, México 101, Andorra 95 |
 | 12–16 s | Mapa de España: Cataluña lidera (106 de 320 centrales), Madrid 90 de 423 |
-| 16–20 s | Aquí tu Reforma: catalana, en 9 países |
-| 20–23,5 s | Cierre: «Salir fuera no es copiar y pegar la tienda. Seguimos.» |
+| 16–20 s | Logo de ATR, «Catalana. En 9 países.» y montaje del NOW! International Summit |
+| 20–24,5 s | Corte de cinta de la Concept Store Barcelona Les Corts y cierre: «Salir fuera no es copiar y pegar la tienda. Seguimos.» |
 
-Música: `public/audio/future-minimal.mp3`.
+Música: `public/audio/future-minimal.mp3`. Clips (640×360 originales, escalados a 2×): `public/clips/`. Logo: `public/atr-logo.png`.
+
+La versión vertical anterior quedó en `out/franquicia-mundo-2025-vertical.mp4`.
 
 ### `out/franquicia-reactivacion-2027.mp4`
 Reacción al análisis de Tormo Franquicias Consulting sobre el último cuatrimestre de 2026.
